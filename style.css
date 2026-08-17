@@ -64,7 +64,7 @@ footer{padding:50px 0;color:var(--muted);display:flex;justify-content:space-betw
 /* Social icons - second row */
 .social-row {
     display: flex;
-    gap: 15px;
+    gap: 12px;
     margin-top: 18px;
 }
 
