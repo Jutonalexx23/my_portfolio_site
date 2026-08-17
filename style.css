@@ -7,7 +7,7 @@ nav{height:78px;display:flex;align-items:center;justify-content:space-between;bo
 .toggle{border:1px solid var(--line);background:var(--card);color:var(--text);width:42px;height:42px;border-radius:50%;cursor:pointer;font-size:17px}
 .hero{padding:105px 0 85px;display:grid;grid-template-columns:1.25fr .75fr;gap:70px;align-items:end}
 .kicker{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.16em;margin-bottom:24px}
-h1{font-size:clamp(52px,8vw,94px);line-height:.92;letter-spacing:-.075em;margin:0 0 30px;font-weight:800}
+h1{font-size:clamp(48px,7vw,90px);line-height:.84;letter-spacing:-.070em;margin:0 0 30px;font-weight:700}
 .hero p{font-size:18px;line-height:1.7;color:var(--muted);max-width:650px}
 .actions{display:flex;gap:12px;margin-top:32px}.btn{padding:13px 19px;border:1px solid var(--line);border-radius:999px;font-weight:650;font-size:14px}.btn.primary{background:var(--accent);color:var(--bg);border-color:var(--accent)}
 .card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:30px}
