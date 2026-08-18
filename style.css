@@ -87,3 +87,9 @@ footer{padding:50px 0;color:var(--muted);display:flex;justify-content:space-betw
     color: var(--bg);
     transform: translateY(-4px);
 }
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
