@@ -625,3 +625,63 @@ footer {
   }
 
 }
+/* =========================================================
+   BACK TO TOP ARROW
+   Hidden at top, appears after scrolling
+   ========================================================= */
+
+.back-to-top {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: var(--accent);
+  color: var(--bg);
+
+  border: 1px solid var(--line);
+  border-radius: 50%;
+
+  font-size: 20px;
+  font-weight: 600;
+
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px);
+
+  z-index: 999;
+
+  transition:
+    opacity 0.3s ease,
+    visibility 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* Show arrow after scrolling */
+.back-to-top.show {
+  opacity: 0.85;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Hover effect */
+.back-to-top:hover {
+  opacity: 1;
+  transform: translateY(-4px);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+  .back-to-top {
+    right: 20px;
+    bottom: 20px;
+    width: 42px;
+    height: 42px;
+  }
+}
