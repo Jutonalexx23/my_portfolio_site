@@ -91,16 +91,16 @@ footer{padding:50px 0;color:var(--muted);display:flex;justify-content:space-betw
 .logo {
   display: flex;
   align-items: center;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
   text-decoration: none;
 }
 
 .logo img {
-  width: 45px !important;
-  height: 45px !important;
-  max-width: 45px !important;
-  max-height: 45px !important;
+  width: 44px !important;
+  height: 44px !important;
+  max-width: 44px !important;
+  max-height: 44px !important;
   object-fit: contain;
   display: block;
 }
