@@ -460,6 +460,54 @@ h2 {
   transform: translateY(-2px);
 }
 
+/* =========================================================
+   PROJECT LIST
+   ========================================================= */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  padding: 28px;
+}
+
+.project-card h3 {
+  margin: 0 0 22px;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.project-details p {
+  margin: 0 0 12px;
+  line-height: 1.7;
+}
+
+.project-details p:last-child {
+  margin-bottom: 0;
+}
+
+.project-details strong {
+  font-weight: 700;
+}
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 22px;
+  }
+
+  .project-card h3 {
+    font-size: 18px;
+  }
+}
 
 /* =========================================================
    CONTACT SECTION
