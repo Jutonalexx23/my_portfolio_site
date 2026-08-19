@@ -41,12 +41,12 @@
   align-items: center;
   justify-content: center;
   z-index: 9999;
-  animation: welcomeFadeOut 1s ease 4s forwards;
+  animation: welcomeFadeOut 0.8s ease 2.2s forwards;
 }
 
 .welcome-content {
   text-align: center;
-  animation: welcomeFadeIn 1s ease;
+  animation: welcomeFadeIn 0.8s ease;
 }
 
 .welcome-content h1 {
