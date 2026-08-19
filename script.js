@@ -36,19 +36,6 @@ button.onclick = () => {
 // Set initial theme icon
 updateThemeButton();
 
-// Scroll Progress
-window.addEventListener("scroll", function () {
-  const scrollProgress = document.getElementById("scroll-progress");
-
-  const scrollTop = window.scrollY;
-  const documentHeight =
-    document.documentElement.scrollHeight - window.innerHeight;
-
-  const scrollPercentage = (scrollTop / documentHeight) * 100;
-
-  scrollProgress.style.width = scrollPercentage + "%";
-});
-
 // =========================================================
 // BACK TO TOP ARROW
 // =========================================================
