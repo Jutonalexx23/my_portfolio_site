@@ -44,11 +44,12 @@ updateThemeButton();
 
 const backToTop = document.querySelector('.back-to-top');
 
-
-// Make sure the button exists before using it
 if (backToTop) {
 
-  // Show / hide arrow while scrolling
+  // -------------------------------------------------------
+  // Show arrow when scrolling down
+  // -------------------------------------------------------
+
   window.addEventListener('scroll', () => {
 
     if (window.scrollY > 400) {
@@ -56,6 +57,20 @@ if (backToTop) {
     } else {
       backToTop.classList.remove('show');
     }
+
+  });
+
+
+  // -------------------------------------------------------
+  // Scroll smoothly to the top when clicked
+  // -------------------------------------------------------
+
+  backToTop.addEventListener('click', () => {
+
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
 
   });
 
